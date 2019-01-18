@@ -1,0 +1,16 @@
+{
+  "name": "ProtractorPractice",
+  "dependencies": {
+    "protractor": "^5.3.0",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor-jasmine2-html-reporter": "^0.0.7"
+  },
+  "scripts": {
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update",
+    "webdriver-start": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_mdoules/.bin/protractor protractorConfig.js",
+    "smokeSuite": "./node_mdoules/.bin/protractor protractorConfig.js --suite smoke",
+    "regressionSuite": "./node_mdoules/.bin/protractor protractorConfig.js --suite regression",
+    "start": "npm run webdriver-update && npm run webdriver-start"
+  }
+}
