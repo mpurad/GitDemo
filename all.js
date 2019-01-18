@@ -21,7 +21,7 @@ describe('Protractor Element Demo', function(){
 		add(7,0);
 		add(8,10);
 
-		
+		console.log("Change");
 		console.log("Changed in develop branch");
 
 		
