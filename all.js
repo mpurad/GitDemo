@@ -19,6 +19,9 @@ describe('Protractor Element Demo', function(){
 		add(4,9);
 		add(0,3);
 		add(7,0);
+		add(8,10);
+		
+		console.log("Changed in develop branch");
 		
 		element.all(by.repeater("result in memory")).count().then(function(count){
 			console.log("Number of results : " + count);

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>Git2</name>
+=======
+	<name>Git1</name>
+>>>>>>> 7e293997a0549c159f2d44f4dc8a1c7342a5ae7b
 	<comment></comment>
 	<projects>
 	</projects>
